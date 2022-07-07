@@ -62,7 +62,7 @@ describe('exercise two (involving poem two)', function () {
 
 	describe('problemA', function () {
 
-		xit('ignoring errors, logs the first and second stanza in any order, and a done message when both are complete', function (done) {
+		it('ignoring errors, logs the first and second stanza in any order, and a done message when both are complete', function (done) {
 			exercise.problemA();
 			setTimeout(function () {
 				expect(blue).to.have.been.called.with(stanzas[0]);
